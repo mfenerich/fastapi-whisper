@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
     ffmpeg curl build-essential git \
     && rm -rf /var/lib/apt/lists/*
 
-# Properly install Rust and configure PATH
+# Install Rust and configure PATH
 RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y \
     && echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.bashrc \
     && export PATH="$HOME/.cargo/bin:$PATH"
