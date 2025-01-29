@@ -1,0 +1,29 @@
+# Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+instance/
+.venv/
+
+# Logs and temp files
+*.log
+*.sqlite3
+*.db
+*.pid
+
+# VS Code settings
+.vscode/
+
+# Virtual environment
+pip-log.txt
+pip-delete-this-directory.txt
+
+# FastAPI and Uvicorn logs
+*.log
+
+# Docker-related
+docker-compose.override.yml

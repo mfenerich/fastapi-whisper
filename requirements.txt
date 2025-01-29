@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+openai-whisper
+torch
+setuptools-rust
+python-multipart
