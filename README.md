@@ -18,7 +18,7 @@ Whisper API is a FastAPI-based application for transcribing audio files using Op
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/whisper-api.git
+   git clone https://github.com/mfenerich/fastapi-whisper.git
    cd whisper-api
    ```
 
